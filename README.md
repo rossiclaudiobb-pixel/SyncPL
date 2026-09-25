@@ -1,3 +1,49 @@
+# SyncPL – Sync macOS Music Playlists to Android over Wi-Fi
+
+[![Official Website](https://img.shields.io/badge/Website-syncpl.org-blue)](https://syncpl.org)
+[![Italian Version](https://img.shields.io/badge/Language-Italiano-red)](https://syncpl.org/it.html)
+[![License](https://img.shields.io/badge/License-Pro%20%2F%20Free%20Trial-green)](https://syncpl.org/#buy)
+
+**SyncPL** is a lightweight desktop and mobile utility designed to wirelessly sync playlists and audio tracks from the macOS Music app to Android devices over local Wi-Fi.
+
+No cables, no cloud servers, and no recurring subscriptions.
+
+---
+
+## 🔗 Quick Links
+
+* **Official Website:** [https://syncpl.org](https://syncpl.org)
+* **Italian Version:** [https://syncpl.org/it.html](https://syncpl.org/it.html)
+* **Buy Pro License:** [Get Unlock Code on Gumroad](https://claudibreeze5.gumroad.com/l/syncpl)
+* **Support Email:** [support@syncpl.org](mailto:support@syncpl.org)
+
+---
+
+## ⚡ Key Features
+
+- **Local Wi-Fi Sync:** Bypass USB cable headaches and MTP protocol failures on macOS. Connect your Mac and Android phone to the same local network to sync in one click.
+- **100% Private & Offline:** Your audio files never pass through external cloud servers. All transfers occur directly between your Mac and Android device.
+- **Preserves Playlist Structure:** Retain track ordering, metadata, and playlist hierarchies created in the macOS Music app directly on your Android music player.
+- **Apple Silicon Native:** Fully optimized for M1, M2, M3, and M4 Macs running macOS 10.15+ and Android 8.0+.
+
+---
+
+## 💳 Download & Pricing
+
+* **Free Trial:** Free download with no time limit. Perfect for testing hardware compatibility (limited to 2 playlists and up to 8 tracks per playlist).
+* **Pro License (€19 One-Time):** Unlocks unlimited playlists, unlimited tracks, fast differential sync, and lifetime updates.
+
+---
+
+## 📬 Contact & Support
+
+For questions, feedback, or technical inquiries:
+- **Official Website:** [syncpl.org](https://syncpl.org)
+- **Support Email:** support@syncpl.org
+
+
+
+
 # SyncPL 🎵
 
 **SyncPL** is a fast, lightweight, and modern Android application designed to wirelessly synchronize music playlists exported from your Mac (Apple Music / Music app / iTunes) directly to your Android device over local Wi-Fi.
@@ -20,6 +66,10 @@
 ---
 
 ## 🛠️ How It Works
+1. **Launch the Mac App:** Open the SyncPL companion app on macOS. It automatically detects your local Apple Music library.
+2. **Connect Android:** Open the SyncPL app on Android connected to the same Wi-Fi network. The Mac server will be discovered instantly.
+3. **Sync Wireless:** Select the playlists you want to transfer and start syncing effortlessly without cables.
+
 
 ```
 ┌──────────────────────────┐               Wi-Fi (mDNS / HTTP)               ┌──────────────────────────┐
