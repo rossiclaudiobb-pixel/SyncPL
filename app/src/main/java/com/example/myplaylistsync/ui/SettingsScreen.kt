@@ -96,6 +96,37 @@ fun SettingsScreen(
             if (settings.localPathUri.isNotEmpty()) {
                 Text("Selected path: ${settings.localPathUri}", style = MaterialTheme.typography.bodySmall)
             }
+
+            HorizontalDivider()
+
+            Text("About & Legal", style = MaterialTheme.typography.titleMedium)
+
+            TextButton(
+                onClick = {
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://syncpl.org"))
+                    context.startActivity(intent)
+                }
+            ) {
+                Text("Official Website (syncpl.org)")
+            }
+
+            TextButton(
+                onClick = {
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://syncpl.org/#terms"))
+                    context.startActivity(intent)
+                }
+            ) {
+                Text("Terms & Conditions")
+            }
+
+            TextButton(
+                onClick = {
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://syncpl.org/#privacy"))
+                    context.startActivity(intent)
+                }
+            ) {
+                Text("Privacy Policy")
+            }
         }
     }
 }
